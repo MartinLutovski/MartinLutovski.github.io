@@ -113,8 +113,9 @@ p {
   }
 }
 
-/* test scroll, resizing */
+/* test scroll, resize */
 
 .test {
-  text-align: left;
+  width: 20%;
+  text-align: justify;
 }

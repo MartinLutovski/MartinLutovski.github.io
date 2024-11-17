@@ -1,4 +1,4 @@
-/* General Reset */
+/* general */
 body, h1, ul, li {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body, h1, ul, li {
     color: #555;
   }
   
-  /* Navbar Styles */
+  /* navbar styles */
   .navbar {
     position: fixed;
     top: 0;
@@ -75,7 +75,7 @@ body, h1, ul, li {
     box-shadow: 0 4px 10px rgba(93, 95, 239, 0.5);
   }
   
-  /* Mobile Navigation */
+  /* Mobile */
   .menu-toggle {
     display: none;
   }

@@ -1,0 +1,23 @@
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 100%;
+  transition: color 1s;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: yellow;
+  font-size: 200%;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  outline: 2px solid red;
+}

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+main {
+    position: relative;
+    top: 5vh;
+    left: 0;
+    }
+nav {
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+
+.position-static {
+    position: static;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-sticky{
+    position: sticky;
+}
+
+.backtotop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(173, 184, 20);
+    cursor: crosshair;
+    padding: 10px;
+    text-decoration: dotted;
+}
+
+a:hover{
+    background-color: red;
+    transition: background-color 1s;
+    
+}

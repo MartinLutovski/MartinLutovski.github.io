@@ -110,6 +110,10 @@ p {
   }
 }
 
+#homework-lists {
+  list-style-type: none;
+}
+
 /* test scroll, resize */
 
 .test {

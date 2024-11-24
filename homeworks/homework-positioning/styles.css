@@ -66,6 +66,12 @@
   flex-direction: column-reverse;
 }
 
+.white-box {
+  height: 50%;
+  width: 100%;
+  border: 5px solid black;
+}
+
 .yellow-box {
   height: 50%;
   width: 100%;
@@ -73,8 +79,3 @@
   border: 5px solid black;
 }
 
-.white-box {
-  height: 50%;
-  width: 100%;
-  border: 5px solid black;
-}

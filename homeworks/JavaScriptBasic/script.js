@@ -5,10 +5,10 @@ let tax = 5;
 let percentage = 100;
 let onepercent = phone / percentage;
 let phoneplustax = phone + onepercent * tax;
-let totalprice = 30;
-let display = phoneplustax * totalprice;
+let numberOfPhones = 30;
+let totalCost = phoneplustax * numberOfPhones;
 
-console.log(display);
+console.log(totalCost);
 
 
-document.getElementById("phoneplustaxmultiplyedby30").innerText = display;
+document.getElementById("phoneplustaxmultiplyedby30").innerText = totalCost;

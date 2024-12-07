@@ -44,4 +44,4 @@ switch (zodiacIndex) {
     zodiacAnimal = "Invalid value entered";
 }
 
-alert(zodiacAnimal);
+alert(`The chinese zodiac for the year ${parsedYear} is ${zodiacAnimal}.`);

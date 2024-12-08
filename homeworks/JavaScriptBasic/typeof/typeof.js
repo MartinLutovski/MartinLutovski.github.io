@@ -4,8 +4,8 @@ function getType(input) {
   return type;
 }
 
-getType(Infinity); // Number
-getType("random text"); // String
-getType(true); // Boolean
-getType({}); // Object
-getType(); // Undefined
+getType(Infinity); 
+getType("random text"); 
+getType(true); 
+getType({}); 
+getType(); 

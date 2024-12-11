@@ -12,7 +12,7 @@ function atm(amount) {
   if (amount <= 0) {
     return "Invalid input: amount must be greater than zero.";
   }
-  
+
   if (amount <= balance) {
     balance -= amount;
     return `You withdrew: ${amount}. Remaining balance: ${balance}`;

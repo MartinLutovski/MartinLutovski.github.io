@@ -24,4 +24,3 @@ function atm(amount) {
 }
 
 alert(atm(amount));
-document.getElementById("atm").innerText = atm(amount)

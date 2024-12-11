@@ -5,9 +5,19 @@ let amount = Number(
 );
 
 function atm(amount) {
+  if (isNaN(amount)) {
+    return "Invalid input: please enter a valid number.";
+  }
+
+  if (amount <= 0) {
+    return "Invalid input: amount must be greater than zero.";
+  }
+  
   if (amount <= balance) {
     balance -= amount;
     return `You withdrew: ${amount}. Remaining balance: ${balance}`;
+  } else if (amount < 0) {
+    return "Invalid amount";
   } else {
     return "Not enough balance.";
   }

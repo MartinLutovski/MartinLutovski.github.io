@@ -10,7 +10,7 @@ let equation = "";
 numbersArray.forEach((num, index) => {
   let listNumber = document.createElement("li");
   listNumber.innerText = num;
-  numberList.appendChild(listNumber); // add child element, as last child./ appendChild is commonly used to dynamically add new elements to the DOM when building content programmatically.
+  numberList.appendChild(listNumber); // add child element, as last child./ appendChild is commonly used to dynamically add new elements to the DOM when building content.
   sum += num;
   equation += num;
   if (index < numbersArray.length - 1) {

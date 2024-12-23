@@ -30,3 +30,16 @@ btn.addEventListener("click", function () {
   changeHeaders(headers);
   changeParagraphs(paragraphs);
 });
+
+btn.addEventListener("mouseover", function () {
+  btn.style.backgroundColor = "black";
+  btn.style.transform = "scale(1.5)";
+  btn.style.color = "white";
+});
+
+btn.addEventListener("mouseout", function () {
+  btn.style.backgroundColor = "";
+  btn.style.transform = "";
+  btn.style.color = "";
+  btn.style.transition = "all 0.5s ease-out";
+});

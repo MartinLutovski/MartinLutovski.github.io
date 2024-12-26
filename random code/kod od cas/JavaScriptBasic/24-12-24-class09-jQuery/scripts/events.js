@@ -19,7 +19,4 @@ $(document).ready(function () {
     paragraphs.toggle();
     // paragraphs.css ("visibility", "hidden")
   });
-
-
-
 });

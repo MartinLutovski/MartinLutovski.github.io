@@ -48,7 +48,7 @@ function Student(firstName, lastName, age, eMail, academy, group) {
 
 let academy = new Academy("Qinshift Academy", 7, 2);
 
-let group = new Group("Full Stack", 120);
+let group = new Group("Full Stack");
 
 let studentOne = new Student(
   "Martin",

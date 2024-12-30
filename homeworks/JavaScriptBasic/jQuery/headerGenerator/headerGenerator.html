@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../../lib/Color-Picker-Plugin-jQuery-MiniColors/jquery.minicolors.css"
+    />
+    <title>Header Generator</title>
+  </head>
+  <body>
+    <main>
+      <h1>HOMEWORK Part 2</h1>
+      <h2>Create a header generator</h2>
+      <p>
+        Create two inputs, one for text and one for color Create a button that
+        says: generate h1 When the button is clicked create a new header below
+        the inputs and button The new header should have the text and color from
+        the inputs Additionally create an h3 element for messages If the person
+        enters an invalid color or an empty text show an error message in the h3
+        element You must use JQuery to complete the task Thank you!
+      </p>
+      <br />
+      <input
+        type="text"
+        value=""
+        placeholder="Write anything you want."
+        id="textInput"
+      />
+      <input
+        type="text"
+        id="demo"
+        placeholder="Hex Value."
+        class="demo"
+        value=""
+      />
+      <br />
+      <button id="generateHeader">Generate header</button>
+      <h3 id="errorMessage"></h3>
+      <div id="headersContainer"></div>
+    </main>
+    <script src="../../lib/jquery-3.7.1.js"></script>
+    <script src="../../lib/Color-Picker-Plugin-jQuery-MiniColors/jquery.minicolors.js"></script>
+    <script src="headerGenerator.js"></script>
+  </body>
+</html>

@@ -1,12 +1,12 @@
 $(document).ready(function () {
-  $(".demo").minicolors({
-    position: "bottom right",
+  $("#colorPicker").minicolors({
+    position: "right",
     inline: false,
   }); // initialize color picker
 
   $("#generateHeader").on("click", function () {
     let textInput = $("#textInput").val().trim(); // text input
-    let colorInput = $("#demo").val().trim(); // color picker value
+    let colorInput = $("#colorPicker").val().trim(); // color picker value
     let errorMessage = $("#errorMessage");
     errorMessage.text(""); // clear error message
 
@@ -32,6 +32,6 @@ $(document).ready(function () {
     $("#headersContainer").append(newHeader);
 
     $("#textInput").val(""); // clear value at click
-    $("#demo").val(""); // clear value at click
+    $("#colorPicker").val(""); // clear value at click
   });
 });

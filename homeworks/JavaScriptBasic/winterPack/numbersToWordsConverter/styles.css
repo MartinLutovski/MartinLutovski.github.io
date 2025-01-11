@@ -1,0 +1,106 @@
+/* alternate box-sizing*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body style */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 500px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Input Section */
+.input-section h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#numberInput {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+  margin: 10px 0;
+}
+
+/* Button Section */
+.button-section {
+  margin-top: 20px;
+}
+
+#convertBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#convertBtn:hover {
+  background: #6a11cb;
+  transform: scale(1.1);
+}
+
+/* Result Section */
+.result-section {
+  margin-top: 20px;
+}
+
+.result-section h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#result {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 80%;
+  word-break: break-word;
+}
+
+#errorMessage {
+  color: #3a1111;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

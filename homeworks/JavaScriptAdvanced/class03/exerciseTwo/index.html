@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Character Info</title>
+  </head>
+  <body>
+    <main>
+      <button id="fetchCharacterBtn">Get Star Wars Character</button>
+      <h1 id="characterName"></h1>
+      <table id="characterStats" style="display: none">
+        <thead>
+          <tr>
+            <th>Stat</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Height</td>
+            <td id="height"></td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td id="weight"></td>
+          </tr>
+          <tr>
+            <td>Eye Color</td>
+            <td id="eyeColor"></td>
+          </tr>
+          <tr>
+            <td>Hair Color</td>
+            <td id="hairColor"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="fetchStarWarsData.js"></script>
+  </body>
+</html>

@@ -83,43 +83,43 @@ car.printInfo();
 // - Add a static method `getTotalElectricCars()` to track and return the total number of `ElectricCar` instances created.
 
 class ElectricCar extends Car {
-  // Static property to track the total number of ElectricCars created
+
   static totalElectricCars = 0;
 
-  // Constructor to initialize ElectricCar properties
+  
   constructor(brand, model, speed, batteryLevel) {
-    super(brand, model, speed); // Calling the parent constructor
+    super(brand, model, speed);
     this.batteryLevel = batteryLevel;
-    ElectricCar.totalElectricCars++; // Increment the counter when a new ElectricCar is created
+    ElectricCar.totalElectricCars++;
   }
 
-  // Method to charge the battery (increases batteryLevel by 10)
+
   chargeBattery() {
     this.batteryLevel += 10;
     console.log(`Battery level is now: ${this.batteryLevel}%`);
   }
 
-  // Static method to get the total number of ElectricCars
+
   static getTotalElectricCars() {
     return ElectricCar.totalElectricCars;
   }
 
-  // Method to print ElectricCar information (including battery level)
+ 
   printInfo() {
-    super.printInfo(); // Print basic car info using the parent class method
+    super.printInfo();
     console.log(`Battery Level: ${this.batteryLevel}%`);
   }
 }
 
 const electricCar1 = new ElectricCar("Tesla", "Model S", 150, 80);
-electricCar1.printInfo(); // Output: Brand: Tesla, Model: Model S, Speed: 150 km/h, Battery Level: 80%
+electricCar1.printInfo();
 
-electricCar1.chargeBattery(); // Output: Battery level is now: 90%
+electricCar1.chargeBattery();
 
 const electricCar2 = new ElectricCar("Nissan", "Leaf", 120, 75);
-electricCar2.printInfo(); // Output: Brand: Nissan, Model: Leaf, Speed: 120 km/h, Battery Level: 75%
+electricCar2.printInfo();
 
-// Get total number of ElectricCars created
+
 console.log(
   `Total ElectricCars created: ${ElectricCar.getTotalElectricCars()}`
-); // Output: 2
+);

@@ -116,7 +116,7 @@ electricCar1.printInfo();
 
 electricCar1.chargeBattery();
 
-const electricCar2 = new ElectricCar("Nissan", "Leaf", 120, 75);
+const electricCar2 = new ElectricCar("Rimac", "Nevera", 400, 75);
 electricCar2.printInfo();
 
 
